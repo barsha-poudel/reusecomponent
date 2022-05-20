@@ -1,5 +1,5 @@
 const Display = (props) => {
-  console.log(props);
+  console.log(props, props.key);
   return (
     <div>
       

@@ -1,10 +1,11 @@
-import Display from "./Object";
+import Display from "./Display";
 
 const Object = () => {
   const Arrayofobjects = [
     { firstname: "joe", lastname: "biden", age: "53" },
     { firstname: "barak ", lastname: "obama", age: "53" },
   ];
+  console.log(Arrayofobjects);
   return (
     <div>
    
